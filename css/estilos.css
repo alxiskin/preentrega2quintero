@@ -1,0 +1,200 @@
+*{padding:0;
+    margin: 0 ;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header nav{background: linear-gradient(rgb(88, 92, 88), rgb(190, 190, 173));}
+.navbar-brand img{
+    height: 80px;
+}
+nav ul li{
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+/*body*/
+
+
+ /*main*/
+
+main{background-image: url(../img/montañalagoazul.jpg);
+;
+background-size: cover; 
+padding: 40px;
+background-position: center;}
+
+
+h1{font-size: 5.4em;
+color: rgba(211, 190, 31, 0.76);
+
+
+display: flex;
+justify-content: flex-start; 
+text-align: center;
+flex-direction: column;
+height: 30vh;
+font-family: 'Covered By Your Grace', cursive;
+
+
+
+}
+
+
+.trekking img{ height: 7rem;
+       position:static;
+
+       margin-bottom: 3rem;
+    }
+
+
+p{
+    font-size: 1;
+    text-align: center;
+    color: rgb(228, 234, 240);
+    font-family: 'Covered By Your Grace', cursive;
+    
+}
+
+/*footer*/
+
+footer{
+   
+    background: linear-gradient(rgb(88, 92, 88), rgb(190, 190, 173));;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    }
+
+button{
+    font-size: 1,2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgb(179, 166, 169);
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px;color: black;
+    box-shadow: 2px 2px 10px black;
+    margin: 10px;
+    
+}
+button a{ color: rgb(14, 11, 11);}
+button:hover{
+    background-color: rgb(77, 96, 139);
+
+}
+
+h2 p{
+    font-size: 0.6rem;
+}
+.logoface img{margin: 10px;
+height: 40px;
+border-radius: 10px;
+padding: 2px;
+}
+
+
+
+/*estilos productos*/
+
+.productos{background-color: beige;
+margin-top: 500px;
+
+}
+
+.productos__k2{
+    background-color: rgb(195, 173, 216);
+    width: 150px;
+    height: 100px;
+    margin: 50px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+ /* Nosotros*/
+
+ main h3 p{
+    font-size: 1rem;
+    color: rgba(247, 214, 25, 0.993);
+
+ }
+ 
+
+/*Marcas*/
+.marcas{
+  font-size: 2rem;
+  font-weight: bold;
+  color: brown;
+   height: 90vh;
+    display: grid;
+    justify-content: center;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1f;
+}
+
+
+.marcas1{background-image: url(../img/bosque.jpg);
+
+    
+ 
+} 
+.marcas2{background-image: url(../img/lagomontaña.jpg);
+      
+    }
+.marcas3{background-image: url(../img/alerces.jpg);
+           
+    }
+.marcas4{background-image:url(../img/trail-running.webp);
+        
+    }
+
+    /*contacto*/
+.contacto{
+    background-image: none;
+    font-family: 'Covered By Your Grace', cursive;
+
+}
+    /*pantalla tablet*/
+
+
+@media screen and (min-width:600px){
+    header nav{background: linear-gradient(rgb(89, 102, 89), rgb(180, 180, 17));
+    }
+}
+/*pantalla de escritorio*/
+@media screen and (min-width:1024px){
+    header nav{ display: flex;
+        display: block;
+        
+        
+    }
+    nav ul li {
+        font-weight: bold;
+        display: block;
+        display: flex;
+        font-size: 1.4rem;
+        margin-left: 80px; 
+        
+        
+    }
+    .navbar-brand img{
+        margin-left: 30px;
+    }
+
+    
+ 
+}
+
+    
+    
+        
+    
+   
+        
+    
+        
+    
+   
+    
